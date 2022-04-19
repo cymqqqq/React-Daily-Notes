@@ -96,6 +96,7 @@ function fetchPokemon(id = 1) {
     .then(sleep(500));
 }
 
+
 class ErrorBoundary extends React.Component {
   constructor(props) {
     super(props);
